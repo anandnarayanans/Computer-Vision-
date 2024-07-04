@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-mdc-snack-bar-container {
+      --mdc-snackbar-container-color: rgba(16, 30, 142, .2);
+      --mat-mdc-snack-bar-button-color: #002383;
+      --mdc-snackbar-supporting-text-color: #ffffff;
+  }
+
+  .mat-datepicker-content {
+    background-color: rgba(16, 30, 142, .75);
+    color: #ffffff;
+    font-size: 14px; 
+  }
+  
+  .mat-calendar {
+    max-height: 270px;
+    max-width: 200px;
+  
+     .mat-calendar-header {
+      background-color: rgba(16, 30, 142, 0.75);
+      color: white;
+      font-size: 16px;
+      padding: 8px 0;
+    }
+    .mat-calendar-table-header {
+      color: rgba(16, 30, 142, 0.75);
+      font-size: 14px;
+    }
+    .mat-calendar-body {
+      .mat-calendar-body-cell-content {
+        font-size: 12px;
+        max-width: 200px; 
+        max-height: 350px;
+        line-height: 30px;
+        &.mat-calendar-body-today {
+          background-color: rgba(16, 30, 142, 0.75);
+          color: white;
+        }
+        &.mat-calendar-body-selected {
+          background-color: rgba(16, 30, 142, 0.75);
+          color: white;
+        }
+      }
+    }
+  }
+  
